@@ -1,0 +1,3 @@
+s3cmd -c ~damien/Dropbox/.s3cfg-uphs --acl-public -m text/html -M sync /Users/damien/Dropbox/static-sites/pennlabs-public/* s3://pennlabs/
+
+
